@@ -1,9 +1,9 @@
 body {
-    height: 100vh;
+
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .header-hero {
@@ -50,7 +50,6 @@ img {
 }
 .image {
     height: 200px;
-    flex-shrink: 0;
 }
 a {
     text-decoration: none;
@@ -79,7 +78,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 350px;
+    height: 400px;
 }
 
 .cards {
@@ -107,5 +106,49 @@ h1 {
 }
 .text {
     color: #1F2937;
+}
+
+.quote {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 550px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote div {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+    width: 600px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 40px 80px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #F9FAF8;
+    gap: 16px;
+}
+.ad button {
+    border: 2px solid #F9FAF8;
+}
+.main-ad {
+    font-weight: bold;
 }
 
